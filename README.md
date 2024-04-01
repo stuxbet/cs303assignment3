@@ -1,26 +1,14 @@
-# Planner-program
-C++ simple planner application
+ Implemented the Queue data structure(using a linked list) with push(), pop(), front(), size() and empty() functions. 
+ The queue is a template class (should work with any data type). 
+ 
+ Performs the following operations:
+a) Instantiate the queue with integers and push 10 values into the queue
+b) Display all the elements in a queue using just the queue functions mentioned above
+(push, pop, front, size etc.)
+c) function called move_to_rear that moves the element currently at
+the front of the queue to the rear of the queue.
 
-both the stack and linked list is coded to just use integers.
+this program has a recursive linear search function with a recursive step that finds the last
+occurrence of a target in a vector, not the first. 
 
-the linked list functions include:
-push_front,
-• push_back,
-• pop_front,
-• pop_back,
-• front, back,
-• empty,
-• void insert(int index, int num): Insert item at position index
-(starting at 0). Insert at the end if index is beyond the end of the list
-• bool remove(int index): Remove the item at position index. Return true if
-successful; return false if index is beyond the end of the list.
-• size_t find(int num): Return the position of the first occurrence of
-item if it is found. Return the size of the list if it is not found.
-
-the vector based stack functions include:
-
-1) bool empty().
-2) void push(int num).
-3) void pop().
-4) int top() returns top element.
-6) float average() takes average of the stack
+this program also has insertion sort so that it can sort a list of integers
